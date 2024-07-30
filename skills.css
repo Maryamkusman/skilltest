@@ -1,0 +1,352 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 94, 0);
+  padding: 0 20px;
+  height: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#call {
+  color: rgb(117, 20, 20);
+  font-size: medium;
+  display: flex;
+  align-items: center;
+  padding-left: 180px;
+}
+
+#number {
+  color: rgb(255, 255, 255);
+  font-size: medium;
+  margin-left: 5px;
+}
+
+#login {
+  color: rgb(117, 20, 20);
+  font-size: medium;
+  margin-right: 5px;
+}
+
+#signup {
+  color: rgb(255, 255, 255);
+  font-size: medium;
+  margin-left: 0px;
+  padding-right: 10px;
+}
+
+.your-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 94, 0);
+  padding: 0 200px;
+  height: 100px;
+  background-color: rgb(243, 241, 241);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+}
+#your {
+  font-size: xx-large;
+}
+#logo {
+  color: rgb(255, 94, 0);
+}
+#navitems {
+  color: black;
+}
+
+a {
+  color: rgb(201, 194, 190);
+  text-decoration: none;
+}
+
+#breadcrumb {
+  padding-top: 50px;
+  padding-left: 180px;
+}
+#contactword {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+#contact {
+  color: rgb(255, 94, 0);
+  padding-top: 10px;
+  padding-left: 180px;
+  font-size: xx-large;
+  text-align: left;
+}
+#paragraph {
+  color: rgb(193, 186, 182);
+  padding-left: 180px;
+  padding-right: 180px;
+  margin-top: -20px;
+}
+
+#contact-form {
+  padding-left: 180px;
+  padding-right: 180px;
+}
+#contact-us {
+  color: rgb(255, 94, 0);
+}
+#line {
+  background-color: rgb(69, 67, 67);
+  height: 6px;
+  width: 100%;
+}
+#line2 {
+  background-color: rgb(69, 67, 67);
+  height: 6px;
+  width: 60%;
+}
+#contact-form {
+  max-width: 400px;
+  border-radius: 0;
+  margin: 0 auto;
+}
+
+#contact-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(244, 244, 244);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#contact-form .form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+#contact-form .form-group {
+  flex: 1;
+}
+
+#contact-form .form-group input {
+  width: 100%;
+}
+
+#contact-form button {
+  display: block;
+  width: 20%;
+  padding: 10px;
+  background-color: #ff5e00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#contact-form button:hover {
+  background-color: #e65500;
+}
+
+#middle {
+  text-align: center;
+}
+
+#contact-form {
+  display: inline-block;
+  width: 45%;
+  margin: 2%;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.reach-us {
+  display: inline-block;
+  width: 45%;
+  margin: 2%;
+  padding: 5px;
+  padding-top: 10px;
+  vertical-align: baseline;
+}
+#contact-us {
+  padding-top: 0px;
+  padding-right: 40%;
+}
+
+#reach-uslogo {
+  color: #e65500;
+  padding-right: 80%;
+}
+#coalition-skills-test {
+  font-weight: normal;
+  font-size: medium;
+  text-align: left;
+}
+address {
+  text-align: left;
+  font-weight: lighter;
+  font-size: small;
+  margin-top: -10px;
+  font-style: normal;
+}
+
+.phone-number {
+  color: inherit;
+}
+
+.phone-number:hover {
+  color: #007bff;
+}
+#clicker {
+  color: black;
+}
+#clicker:hover {
+  color: #007bff;
+}
+
+#number:hover {
+  color: #007bff;
+}
+
+#contactword:hover {
+  color: #007bff;
+}
+#home:hover {
+  color: #007bff;
+}
+#who:hover {
+  color: #007bff;
+}
+
+#login:hover {
+  color: #007bff;
+}
+#signup:hover {
+  color: #007bff;
+}
+
+.fa-facebook {
+  background: #2d2d2e;
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+
+.fa-twitter {
+  background: #95999c;
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+
+.fa-linkedin {
+  background: #95999c;
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+
+.fa-pinterest {
+  background: #95999c;
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+
+#favicon {
+  padding-right: 200px;
+  padding-top: 50px;
+  width: 150px;
+  font-size: 24px;
+}
+
+.fa-pinterest:hover {
+  background-color: red;
+}
+.fa-linkedin:hover {
+  background-color: blue;
+}
+
+.fa-twitter:hover {
+  background-color: aqua;
+}
+.fa-facebook:hover {
+  background-color: darkblue;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+li a {
+  color:black; /* Replace #your-color with the desired color */
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+li a:hover {
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-decoration-thickness: 7px;
+}
+
+.dropdown:hover .dropbtn{
+  color:black;
+}
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
